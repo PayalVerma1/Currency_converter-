@@ -84,3 +84,18 @@ input{
     background-color: antiquewhite;
     text-align: center;
 }
+@media (max-width: 600px) {
+    .container {
+      width: 90vw;
+      height: auto;
+      padding: 20px;
+    }
+    select, input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #BUTTON {
+      width: 100%;
+    }
+  }
+  
